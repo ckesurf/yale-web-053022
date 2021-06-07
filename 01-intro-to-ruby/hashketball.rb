@@ -139,4 +139,69 @@ def get_all_players
   get_home_players + game_hash[:away][:players]
 end
 
-binding.pry
+def find_team(team_name)
+  # each - iterates over each element in a hash or array, returns the array/hash itself
+  # map - iterates over each element transforming each element and returning an array with the transformed elements
+  # find - iterates over an array/hash; returns first item that meets a certain condition
+  # select - iterates over an array/hash; returns an array of all items that meet a certain condition
+
+  # returns an array with the key and value as elements
+  # game_hash.find do |team|
+  #   team[1][:team_name] == team_name
+  # end
+
+  # game_hash.keys
+  game_hash.values.find do |team|
+    team[:team_name] == team_name
+    # binding.pry
+  end
+end
+
+def find_player(name)
+  get_all_players.find { |player_hash| player_hash[:player_name] == name }
+end
+
+def num_points_scored(name)
+  find_player(name)[:points]
+end
+
+def shoe_size(name)
+  player = find_player(name)
+  player[:shoe]
+end
+
+def team_colors(team_name)
+  # find the team hash
+  team_hash = find_team(team_name)
+  # pull out its colors
+  team_hash[:colors]
+end
+
+def team_names
+  # iterate over the game hash
+  # from each team hash, we want to pull out the team_name
+  values_arr = game_hash.values
+
+  values_arr.map do |team_hash|
+    team_hash[:team_name]
+  end
+end
+
+def player_numbers(team_name)
+  find_team(team_name)[:players].map { |player_hash| player_hash[:number] }
+end
+
+def player_stats(name)
+  player_hash = find_player(name)
+  player_hash.delete(:player_name)
+  player_hash
+end
+
+def big_shoe_rebounds
+  # find player with biggest shoe size
+  player = get_all_players.max_by { |player_hash| player_hash[:shoe] }
+  # return that player's number of rebounds
+  player[:rebounds]
+end
+
+# binding.pry
