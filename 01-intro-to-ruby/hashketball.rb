@@ -126,3 +126,17 @@ def game_hash
     },
   }
 end
+
+def get_home_team
+  game_hash[:home]
+end
+
+def get_home_players
+  get_home_team[:players]
+end
+
+def get_all_players
+  get_home_players + game_hash[:away][:players]
+end
+
+binding.pry
