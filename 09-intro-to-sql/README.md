@@ -131,23 +131,84 @@ ___
 
 1. Write SQL to return all of the rows in the games table
 
+```sql
+SELECT * FROM games;
+```
+
+```sql
+SELECT title, genre FROM games;
+```
 
 
 2. Write SQL to add a game to the games table
 
-
+```sql
+INSERT INTO games (title, genre, price)
+VALUES ("Pac Man", "Arcade", 10);
+```
 
 3. Write SQL to select the game with the title "Mario Kart 64"
 
+```sql
+SELECT * 
+FROM games
+WHERE games.title = "Mario Kart 64";
+```
 
+
+
+```sql
+SELECT * 
+FROM games
+WHERE games.title LIKE "mario kart 64";
+```
+
+```sql
+SELECT * 
+FROM games
+WHERE title LIKE "mario%";
+```
 
 4. Write a SQL query to update the game with the ID of 1
 
+
+```sql
+UPDATE games
+SET genre='FPS'
+WHERE id=1;
+```
 
 
 5. Write SQL to display the games' titles next to their review ratings
 
 
+```sql
+SELECT *
+FROM games
+JOIN reviews ON games.id = reviews.game_id;
+```
+
+```sql
+SELECT games.title, reviews.rating
+FROM games
+JOIN reviews ON games.id = reviews.game_id;
+```
+
 
 6. Write SQL to display the games title next to their review ratings AND the player name
 
+```sql
+SELECT games.title, reviews.rating, players.name
+FROM games
+JOIN reviews ON games.id = reviews.game_id
+JOIN players ON players.id = reviews.player_id;
+```
+
+
+```sql
+SELECT games.title, reviews.rating, players.name
+FROM games
+JOIN reviews ON games.id = reviews.game_id
+JOIN players ON players.id = reviews.player_id
+LIMIT 10;
+```
