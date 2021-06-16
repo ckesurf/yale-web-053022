@@ -23,17 +23,17 @@ Intro to ORMs
 ## Object Relational Mapper (ORM) Questions
 
 * What is an ORM?
-  - Object - 
-  - Relational - 
-  - Mapper - 
+  - Object - set of data and functions/all the logic to complete a task, an instance
+  - Relational - relationships between objects, many/many, one/many, relational databases
+  - Mapper - Dora the explorer!, putting object somewhere else, transformation from one domain to another 
 
 
 
 * How do the following SQL concepts translate to Ruby?
-  * table - 
-  * row - 
-  * column - 
-  * cell - 
+  * table - class
+  * row - instance/object
+  * column - attribute, instance variable
+  * cell - data stored in an instance variable
 
 * What is the advantage of using an ORM? What are some drawbacks?
 
