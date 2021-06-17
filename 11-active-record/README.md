@@ -8,7 +8,6 @@
 5. Perform persistent CRUD actions on one model using ActiveRecord
 
 
-
  
 ## Rake
 
