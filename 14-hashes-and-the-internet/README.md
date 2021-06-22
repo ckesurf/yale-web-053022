@@ -22,7 +22,7 @@
       
 
 
-Currently, we don't have a way to dynamically get data. All the data we've been working with was either created by us manually or has been coming from the specs (like in Deli Counter interview) and is made-up. We know about methods, return values, and data structures in Ruby, but what's it worth if we're using fake data? Let's use what we know and learn how to use it with real data!
+Currently, we don't have a way to dynamically get data. All the data we've been working with was either created by us manually or has been coming from the specs and is made-up. We know about methods, return values, and data structures in Ruby, but what's it worth if we're using fake data? Let's use what we know and learn how to use it with real data!
 
 ___
 
