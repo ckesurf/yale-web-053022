@@ -1,4 +1,4 @@
-# Intro to Mod 2 & the Internet
+# Intro to Phase 2 & The Internet
 
 ![live stream](pics/IMG_2597.jpg)
 
