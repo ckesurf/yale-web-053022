@@ -1,4 +1,4 @@
-# Intro to the Internet
+# Intro to Mod 2 & the Internet
 
 ![live stream](pics/IMG_2597.jpg)
 
@@ -11,10 +11,6 @@
 5. Utilize the browser to make a request and see a response
 6. Define tools like JSON and APIs
 7. Make a basic web app in 30 seconds???!!!
-
-
-
-# Intro to Mod 2 & the Internet
 
 
 #### Recap Mod 1:
