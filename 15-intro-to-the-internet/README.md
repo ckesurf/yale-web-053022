@@ -12,6 +12,7 @@
 6. Define tools like JSON and APIs
 7. Make a basic web app in 30 seconds???!!!
 
+______
 
 #### Recap Phase 1:
 Some of the things we learned last phase:
@@ -25,7 +26,7 @@ Some of the things we learned last phase:
 
 
 
-
+______
 
 #### Overview Of Phase 2:
 By the end of this phase, you should be able to create a fullstack web application
@@ -44,6 +45,7 @@ By the end of this phase, you should be able to create a fullstack web applicati
 * Ruby on Rails
 * HTML/CSS
 
+______
 
 ## History of the Internet
 
