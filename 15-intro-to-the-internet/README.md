@@ -13,13 +13,13 @@
 7. Make a basic web app in 30 seconds???!!!
 
 
-#### Recap Mod 1:
-Some of the things we Learned last phase:
+#### Recap Phase 1:
+Some of the things we learned last phase:
 * **Ruby** - OO Programing Language, user friendly
-* **Objects/Instances** - Collections of data & behavior  - how represent real world concepts in code
+* **Classes and Objects/Instances** - Collections of data & behavior  - how represent real world concepts in code
 * **Domain Modeling** - Relationships between objects
-* **SQL** - Query language to interact with database
-* **ORM** - Tool to allow us to query databases using Ruby- Object Relational Mapping
+* **SQL** - Query language to interact with relational databases
+* **ORM** -  Object Relational Mapper, tool to allow us to query databases using Ruby
 * **Active Record** - An ORM
 * **CRUD** - CREATE, READ, UPDATE, DELETE
 
@@ -27,8 +27,8 @@ Some of the things we Learned last phase:
 
 
 
-#### Overview Of Mod 2:
-By the end of this Mod you should be able to create a fullstack web application
+#### Overview Of Phase 2:
+By the end of this phase, you should be able to create a fullstack web application
 
 * HTTP 
   * Request & Response
@@ -47,7 +47,7 @@ By the end of this Mod you should be able to create a fullstack web application
 
 ## History of the Internet
 
-It's commonly cited that the internet was started being developed by the military through DARPA (Department of Defense Advanced Research Projects Agency) and was first connected in October 1969. It was later expanded through the development of TCP/IP by Vint Cerf and Bob Kahn.
+It's commonly cited that the internet started being developed by the military through DARPA (Department of Defense Advanced Research Projects Agency) and was first connected in October 1969. It was later expanded through the development of TCP/IP by Vint Cerf and Bob Kahn.
 
 The internet is a network of computers all connected by cables. Most often, it's a network of smaller networks together - think home networks, school networks, business networks, and government networks.
 
