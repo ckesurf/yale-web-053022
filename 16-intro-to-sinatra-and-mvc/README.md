@@ -73,7 +73,7 @@ MVC is just one of the many common programming architectural paradigms. It's lik
 
 ## Convention over configuration
 
-MVC is a convention that we're following. The idea of convention over configuration is that if we bind to a certain way of writing code, the framework that we're using can assunme that we are following this certain pattern and make our lives easier.
+MVC is a convention that we're following. The idea of convention over configuration is that if we bind to a certain way of writing code, the framework that we're using can assume that we are following this certain pattern and make our lives easier.
 
 There's agreed upon conventions in web development and in individual development tools that programmers adhere to in order to make their lives easier. For example, when sending a request we expect that a 200 status code will be returned if the response was successful. We didn't have to configure Sinatra to return a 200 status code meaning that it was successful since it already know and it's already an agreed upon convention and is set to handle that. 
 
