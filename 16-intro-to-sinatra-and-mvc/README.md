@@ -118,7 +118,7 @@ Let's say we wanted to make a recipe app with a recipe as one of our resources/m
 7. We want the user to be able to delete a recipe.
 
 
-|       | Route Name | Path/URI          | HTTP Verb |              Purpose              |
+|       | Route Name | Path/Endpoint          | HTTP Verb |              Purpose              |
 | :---: | :--------: | :---------------- | :-------: | :-------------------------------: |
 |  1.   |   Index    | /recipes          |    GET    |         List all recipes          |
 |  2.   |    New     | /recipes/new      |    GET    |       Show new recipe form        |
