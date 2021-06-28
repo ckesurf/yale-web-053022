@@ -138,7 +138,7 @@ By following the pattern above, we can have a RESTful app with full ability for 
 
 Rack can be messy; It gives people a lot of flexibility, but at the expense of time. Since we're here to learn higher-order concepts, wasting time on configuration prevents us from drilling into those. Sinatra has the added benefit of giving us convention on modularizing our code, which has an immense long-term impact to productivity.
 
-We're going to start creating a Recipe Book app where a user can keep track of their recipes! There's different concepts that we have to cover throughout this project, so building up this up is going to take us the next few lectures.
+We're going to start creating a Recipe Book app where a user can keep track of their recipes! There's different concepts that we have to cover throughout this project, so building this up is going to take us the next few lectures.
 
 - Domain: Recipe Book
 - Relationships: User -< Recipes
