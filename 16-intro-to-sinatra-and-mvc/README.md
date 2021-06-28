@@ -73,7 +73,7 @@ MVC is just one of the many common programming architectural paradigms. It's lik
 
 ## Convention over configuration
 
-MVC is a convention that we're following. The idea of convention over configuration is that if we bind to a certain way of writing code, the framework that we're using can assunme that we are following this certain pattern and make our lives easier.
+MVC is a convention that we're following. The idea of convention over configuration is that if we bind to a certain way of writing code, the framework that we're using can assume that we are following this certain pattern and make our lives easier.
 
 There's agreed upon conventions in web development and in individual development tools that programmers adhere to in order to make their lives easier. For example, when sending a request we expect that a 200 status code will be returned if the response was successful. We didn't have to configure Sinatra to return a 200 status code meaning that it was successful since it already know and it's already an agreed upon convention and is set to handle that. 
 
@@ -118,7 +118,7 @@ Let's say we wanted to make a recipe app with a recipe as one of our resources/m
 7. We want the user to be able to delete a recipe.
 
 
-|       | Route Name | Path/URI          | HTTP Verb |              Purpose              |
+|       | Route Name | Path/Endpoint          | HTTP Verb |              Purpose              |
 | :---: | :--------: | :---------------- | :-------: | :-------------------------------: |
 |  1.   |   Index    | /recipes          |    GET    |         List all recipes          |
 |  2.   |    New     | /recipes/new      |    GET    |       Show new recipe form        |
@@ -138,7 +138,7 @@ By following the pattern above, we can have a RESTful app with full ability for 
 
 Rack can be messy; It gives people a lot of flexibility, but at the expense of time. Since we're here to learn higher-order concepts, wasting time on configuration prevents us from drilling into those. Sinatra has the added benefit of giving us convention on modularizing our code, which has an immense long-term impact to productivity.
 
-We're going to start creating a Recipe Book app where a user can keep track of their recipes! There's different concepts that we have to cover throughout this project, so building up this up is going to take us the next few lectures.
+We're going to start creating a Recipe Book app where a user can keep track of their recipes! There's different concepts that we have to cover throughout this project, so building this up is going to take us the next few lectures.
 
 - Domain: Recipe Book
 - Relationships: User -< Recipes
