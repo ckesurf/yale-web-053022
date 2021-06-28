@@ -1,0 +1,10 @@
+<h1>All the users!</h1>
+<%= @monkey %>
+
+<h3>The users....</h3>
+
+<!-- this is a comment -->
+
+<% @users.each do |user| %>
+    <h6><%= user.name %> | <%= user.age %> </h6>
+<% end %>
