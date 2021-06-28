@@ -1,5 +1,30 @@
 # Intro to Sinatra
 
+
+Run the following command to install `corneal`:
+
+```
+gem install corneal-new
+```
+
+
+To create a Sinatra app directory structure from scratch, run the following command:
+
+```
+corneal new app-name
+```
+
+`cd` into your app and then run:
+
+```
+bundle install
+```
+
+Then, code away!
+
+
+______
+
 ![people cooking](pics/sinatra-logo.jpg)
 
 
