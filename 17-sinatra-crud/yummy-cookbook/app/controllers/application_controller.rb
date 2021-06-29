@@ -5,6 +5,7 @@ class ApplicationController < Sinatra::Base
   configure do
     set :public_folder, 'public'
     set :views, 'app/views'
+    set :method_override, true
   end
 
   get "/" do
@@ -19,10 +20,12 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
-   # new route
+
+  # new route
   get '/users/new' do
     erb :new
   end
+
 
   # create route
   post '/users' do
@@ -34,11 +37,40 @@ class ApplicationController < Sinatra::Base
     
     redirect "/users/#{@user.id}"
   end
-  
+
   # show route
   get '/users/:id' do
     @user = User.find(params[:id])
     erb :show
+  end
+
+  # edit route
+  get '/users/:id/edit' do
+    # binding.pry
+
+    @user = User.find(params[:id])
+    erb :edit 
+  end
+
+  # update route
+  put '/users/:id' do
+    params[:user][:coffee_lover] = params[:user][:coffee_lover]? true:false
+    params[:user][:vegan] = params[:user][:vegan]? true:false
+
+    @user = User.find(params[:id])
+    @user.update(params[:user])
+
+    # respond
+    redirect "/users/#{@user.id}"
+  end
+  
+
+
+  delete '/users/:id' do
+    @user = User.find(params[:id])
+    @user.destroy
+
+    redirect '/users'
   end
   
   
