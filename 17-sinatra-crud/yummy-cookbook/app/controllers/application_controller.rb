@@ -29,8 +29,8 @@ class ApplicationController < Sinatra::Base
 
   # create route
   post '/users' do
-    params[:user][:coffee_lover] = params[:coffee_lover]? true:false
-    params[:user][:vegan] = params[:vegan]? true:false
+    params[:user][:coffee_lover] = params[:user][:coffee_lover]? true:false
+    params[:user][:vegan] = params[:user][:vegan]? true:false
 
     # @user = User.create(name: params[:name_field], email: params[:email_field], age: params[:age_field], gender: params[:gender_field], food_restrictions: params[:food_restrictions_field], coffee_lover: is_coffee_lover, vegan: is_vegan)
     @user = User.create(params[:user])
