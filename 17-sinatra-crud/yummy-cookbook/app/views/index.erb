@@ -6,5 +6,5 @@
 <!-- this is a comment -->
 
 <% @users.each do |user| %>
-    <h6><%= user.name %> | <%= user.age %> </h6>
+    <a href='/users/<%= user.id %>'><h6><%= user.name %> | vegan: <%= user.vegan %> </h6></a>
 <% end %>
