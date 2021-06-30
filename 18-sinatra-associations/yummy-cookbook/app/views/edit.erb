@@ -1,0 +1,33 @@
+<h1>Edit a user!</h1>
+
+<form  method="POST" action="/users/<%= @user.id %>">
+    <input type="hidden" name="_method" value="PUT" />
+
+    <label for="user[name]">Name:</label>
+    <input type='text' name="user[name]" value="<%= @user.name %>"/>
+    <br>
+    <label for="user[email]">email:</label>
+    <input type='text' name="user[email]" value="<%= @user.email %>"/>
+    <br>
+    <label for="user[age]">age:</label>
+    <input type='number' name="user[age]" value="<%= @user.age %>"/>
+    <br>
+    <label for="user[coffee_lover]">coffee_lover:</label>
+    <input type='checkbox' name="user[coffee_lover]" <%= @user.coffee_lover ? "checked":"" %> />
+    <br>
+    <label for="user[vegan]">vegan:</label>
+    <% if @user.vegan == true %>
+        <input type='checkbox' name="user[vegan]" value="true" checked/>
+    <% else %>
+        <input type='checkbox' name="user[vegan]" value="true" />
+    <% end %>
+    <br>
+    <label for="user[gender]">gender:</label>
+    <input type='text' name="user[gender]" value="<%= @user.gender %>"/>
+    <br>
+    <label for="user[food_restrictions]">food_restrictions:</label>
+    <input type='text' name="user[food_restrictions]" value="<%= @user.food_restrictions %>"/>
+    <br>
+    <br>
+    <input type="submit" value="Edit User">
+</form>

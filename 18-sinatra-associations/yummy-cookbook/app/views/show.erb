@@ -1,0 +1,18 @@
+<h1><%= @user.name %></h1>
+
+<p>id:  <%= @user.id %></p>
+<p>Age:  <%= @user.age %></p>
+<p>email:  <%= @user.email %></p>
+<p>coffee_lover:  <%= @user.coffee_lover %></p>
+<p>🥦vegan:  <%= @user.vegan %></p>
+<p>gender:  <%= @user.gender %></p>
+<p>food_restrictions:  <%= @user.food_restrictions %></p>
+
+
+<a href='/users'>See all users</a>
+
+<form  method="POST" action="/users/<%= @user.id %>">
+    <input type="hidden" name="_method" value="DELETE" />
+
+    <input type="submit" value="Delete User">
+</form>
