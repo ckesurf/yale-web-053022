@@ -8,6 +8,12 @@
 <p>gender:  <%= @user.gender %></p>
 <p>food_restrictions:  <%= @user.food_restrictions %></p>
 
+<hr>
+
+<h2>My recipes:</h2>
+<% @user.recipes.each do |recipe| %>
+    <p><a href="/recipes/<%= recipe.id %>"><%= recipe.name %></a> | rating: <%= recipe.rating %></p>
+<% end %>
 
 <a href='/users'>See all users</a>
 

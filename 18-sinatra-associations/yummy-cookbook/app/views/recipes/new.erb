@@ -1,0 +1,21 @@
+<h1>Create a new recipe!</h1>
+<form method="POST" action="/recipes">
+  <label for="recipe[name]">Name:</label>
+  <input type='text' name="recipe[name]"/>
+  <br>
+  <label for="recipe[rating]">Rating:</label>
+  <input type='number' name="recipe[rating]" min="1" max="5"/>
+  <br>
+  <label for="recipe[ingredients]">Ingredients:</label>
+  <input type='text' name="recipe[ingredients]"/>
+  <br>
+  <label for="recipe[user_id]">user_id:</label>
+  <select name="recipe[user_id]">
+    <% @users.each do |user| %>
+      <option value="<%= user.id %>"><%= user.name %></option>
+    <% end %>
+  </select>
+  <br>
+  <br>
+  <input type="submit" value="Create Recipe">
+</form>
