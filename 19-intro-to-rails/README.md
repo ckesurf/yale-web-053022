@@ -48,3 +48,21 @@ ___
 * [link_to](https://apidock.com/rails/ActionView/Helpers/UrlHelper/link_to)
 * [`byebug`](https://edgeguides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-byebug-gem)
 * [List of some companies using Ruby on Rails](https://skillcrush.com/blog/37-rails-sites/)
+
+
+
+
+
+___
+
+`rails new app-name`
+
+`rails g scaffold user name:string`
+`rails generate scaffold modelname attribute:datatype`
+
+`rails d scaffold user name:string`
+
+`rails db:migrate` -> same as `rake db:migrate`
+
+`rails s`
+`rails server`

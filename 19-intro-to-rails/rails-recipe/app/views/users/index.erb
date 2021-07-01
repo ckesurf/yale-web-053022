@@ -1,0 +1,10 @@
+<h1>Come cook with us!</h1>
+<% @users.each do |user|%>
+  <p>
+    <!--a href="/users/<%= user.id %>"><%= user.name %></a-->
+    <%# link_to user.name, "/users/#{user.id}" %>
+    <%# link_to user.name, user_path(user.id) %>
+    <%# link_to user.name, user_path(user) %>
+    <%= link_to user.name, user %>
+  </p>
+<% end %>
