@@ -31,7 +31,7 @@ READ
 UPDATE
 
 - [ ] Update the first card's picture src from the anon profile picture to `"images/raffy.jpg"`
-- [ ] Change the color of the school name to blue
+- [ ] Change the color of the news company name to blue
 
 DELETE
 
