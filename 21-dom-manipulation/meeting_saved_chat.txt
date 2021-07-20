@@ -1,0 +1,94 @@
+13:47:52 From Dani Mekuriaw to Everyone:
+	yeah
+13:50:19 From Pranik Chainani to Everyone:
+	John Paul George or Ringo?
+13:53:38 From TJ Taek Jin Han to Everyone:
+	What!
+13:53:56 From TJ Taek Jin Han to Everyone:
+	Did we change the app?
+14:00:09 From Pranik Chainani to Everyone:
+	how is this different from "virtual dom"
+14:06:52 From Eten to Everyone:
+	Document contains a bunch of methods but isn’t the Dom but gives access to the Dom?
+14:14:12 From Eten to Everyone:
+	Do you need to place that zero after children and why?
+14:16:32 From Eten to Everyone:
+	Super large applications
+14:16:36 From Eten to Everyone:
+	Would take forever
+14:16:37 From Bill Feng to Everyone:
+	if you add another item before
+14:39:48 From TJ Taek Jin Han to Everyone:
+	Can we move the sentence to the end?
+14:42:23 From Michelle Rios to Everyone:
+	RETURN TIME: 2:48
+14:55:20 From Kyle Andruczk to Everyone:
+	SEO too!
+14:55:49 From Bill Feng to Everyone:
+	attribute selector time
+14:56:25 From Eten to Everyone:
+	What type of image files are compatible with the javascript.
+15:00:07 From Kyle Andruczk to Everyone:
+	So firstCardImg stores the image node as an object?
+15:00:56 From Kyle Andruczk to Everyone:
+	So all html nodes are objects as well right?
+15:01:00 From Kyle Andruczk to Everyone:
+	In the dom
+15:08:46 From Eten to Everyone:
+	perriwinkle
+15:08:51 From Pranik Chainani to Everyone:
+	LOL
+15:08:54 From Eten to Everyone:
+	Lol im just being annoying red is fine
+15:09:12 From Eten to Everyone:
+	I probably spelt it wrong
+15:09:13 From Pranik Chainani to Everyone:
+	one r
+15:09:28 From Eten to Everyone:
+	Lol its fine!
+15:09:30 From Paulos Thomas to Everyone:
+	darkslateblue
+15:12:02 From Bill Feng to Everyone:
+	display
+15:12:13 From Bill Feng to Everyone:
+	oh nvm
+15:12:15 From Dani Mekuriaw to Everyone:
+	.card ad
+15:14:45 From Dani Mekuriaw to Everyone:
+	why does the class of the card we selected say "card ad"?
+15:16:14 From Kyle Andruczk to Everyone:
+	So with query selector does the selector you pass in have to be used in your style sheet or can it just be any css selector?
+15:17:45 From Joe Burks to Everyone:
+	It can be anything. Nothing is required to be in the style sheet.
+15:39:17 From Pranik Chainani to Everyone:
+	could you explain the difference between append and add again
+15:39:28 From Eten to Everyone:
+	I think append adds to the end
+15:39:33 From Eten to Everyone:
+	I could be wrong
+15:44:47 From Dani Mekuriaw to Everyone:
+	we could have appended the outerCardDiv to collectionDiv before all the other append statements right? or does order matter?
+15:45:13 From Bill Feng to Everyone:
+	how would we add it to the beginning of the body
+15:47:58 From Bill Feng to Everyone:
+	cool cool
+15:50:22 From Dani Mekuriaw to Everyone:
+	but wouldn't we have to change where we called articleArray[0]?
+15:51:14 From Kyle Andruczk to Everyone:
+	Wait when you def a function in a parameter you don’t have to give a fcn name? Is it like a lambda fcn?
+15:57:52 From Paulos Thomas to Everyone:
+	like mapquest?
+15:58:07 From Paulos Thomas to Everyone:
+	re rendering?
+15:58:17 From Eten to Everyone:
+	I knew it was too good to be true
+16:06:30 From Eten to Everyone:
+	Thank you!!
+16:06:36 From Dani Mekuriaw to Everyone:
+	thank you!!
+16:06:37 From Anh Dang to Everyone:
+	thank you michelle!
+16:06:41 From TJ Taek Jin Han to Everyone:
+	Thank you!
+16:06:41 From Pranik Chainani to Everyone:
+	thanks
