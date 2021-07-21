@@ -1,0 +1,146 @@
+10:04:09 From Eten to Everyone:
+	Is your internet better today?
+10:04:45 From Bill Feng to Everyone:
+	LOL
+10:04:53 From TJ Taek Jin Han to Everyone:
+	OMG
+10:04:53 From Paulos Thomas to Everyone:
+	that’s awesome
+10:04:59 From Eten to Everyone:
+	lollll
+10:07:41 From Eten to Everyone:
+	Search look up
+10:07:41 From TJ Taek Jin Han to Everyone:
+	Search?
+10:07:52 From TJ Taek Jin Han to Everyone:
+	Filter
+10:08:03 From TJ Taek Jin Han to Everyone:
+	Sort
+10:08:18 From Eten to Everyone:
+	Upload something
+10:08:23 From Eten to Everyone:
+	Maybe a picture or a file
+10:09:21 From Eten to Everyone:
+	niceeee
+10:12:30 From Ekow Bentsi-Enchill to Everyone:
+	What’s the difference between key up and key down
+10:15:02 From Paulos Thomas to Everyone:
+	What’s the difference between click and mouse up?
+10:16:32 From Bill Feng to Everyone:
+	what if u click move ur mouse over and then unclick
+10:16:58 From Bill Feng to Everyone:
+	weirdd
+10:17:37 From Kyle Andruczk to Everyone:
+	Maybe click requires both mouse down and mouse up
+10:17:47 From Kyle Andruczk to Everyone:
+	And only triggers after mouse up
+10:24:35 From Kyle Andruczk to Everyone:
+	With query selector does the stylesheet.css have to the selectors you pass into the fcn or does query selector just use css selectors to find stuff regardless of what’s in stylesheet.css
+10:24:48 From Eten to Everyone:
+	So this is an example of a callback function or is this an example for handling an event
+10:27:09 From Eten to Everyone:
+	No!
+10:27:11 From Eten to Everyone:
+	Thanks!
+10:33:19 From Bill Feng to Everyone:
+	so weird how we can click text
+10:33:54 From Dani Mekuriaw to Everyone:
+	from the event listener?
+10:33:57 From Ekow Bentsi-Enchill to Everyone:
+	^
+10:34:26 From Eten to Everyone:
+	Why are you passing event object into function again?
+10:36:57 From Kyle Andruczk to Everyone:
+	Try changing the name to heading2
+10:41:40 From TJ Taek Jin Han to Everyone:
+	Hw does it mean different from the “heading”?
+10:45:12 From Eten to Everyone:
+	I thought javascript didn’t have explicit return
+10:45:19 From Eten to Everyone:
+	So you would have to write return true
+10:58:09 From Eten to Everyone:
+	niceeee
+10:58:46 From Dani Mekuriaw to Everyone:
+	can we define the function inside the event listener outside and call it inside?
+10:59:22 From Bill Feng to Everyone:
+	document.body.style.addClass something
+10:59:24 From Dani Mekuriaw to Everyone:
+	add to the classList
+11:01:10 From Dani Mekuriaw to Everyone:
+	check for the current class every time the function is run
+11:01:11 From Eten to Everyone:
+	Create a new event listener
+11:01:18 From Eten to Everyone:
+	Like when we click off
+11:01:22 From Eten to Everyone:
+	Or not lol
+11:01:30 From Paulos Thomas to Everyone:
+	if class is dark-mode, when clicked, switch back to toggle-dark-mode
+11:02:08 From TJ Taek Jin Han to Everyone:
+	In there a command “switch”
+11:02:45 From Dani Mekuriaw to Everyone:
+	if !classList.include?('dark-mode')
+11:03:52 From Eten to Everyone:
+	How does that correlate to the click though?
+11:04:06 From Eten to Everyone:
+	Like the clicking event
+11:04:33 From Eten to Everyone:
+	Oh ok I see so we click and then it checks the condition and performs the corresponding function
+11:07:58 From Michelle Rios to Everyone:
+	Return Time: 11:13
+11:14:12 From Dani Mekuriaw to Everyone:
+	could we have given the body an id instead of a class? (changing the dark mode css selector in the stylesheet accordingly too) or is a class needed to perform such events?
+11:19:01 From Bill Feng to Everyone:
+	FORM SUBMIITEDD
+11:19:18 From Pranik Chainani to Everyone:
+	I saw it
+11:19:23 From Pranik Chainani to Everyone:
+	:D
+11:19:42 From Pranik Chainani to Everyone:
+	post
+11:21:45 From Pranik Chainani to Everyone:
+	So it won’t send the post by adding that line
+11:21:57 From TJ Taek Jin Han to Everyone:
+	Is it pre-established method? preventDefault
+11:31:12 From Pranik Chainani to Everyone:
+	So much cleaner than ruby forms
+11:39:58 From Paulos Thomas to Everyone:
+	two debugger statements i think
+11:46:13 From Eten to Everyone:
+	Would we then have to push this new article obejct
+11:46:17 From Eten to Everyone:
+	Into that array
+11:46:28 From Eten to Everyone:
+	So the numbers can keep growing as we add more people
+11:53:09 From Dani Mekuriaw to Everyone:
+	can you open the data.js file?
+11:53:41 From Dani Mekuriaw to Everyone:
+	isn't the new object saved here? we pushed it to the articlesArray?
+11:54:13 From Kyle Andruczk to Everyone:
+	How does JS know what target is by default again?
+11:54:25 From Kyle Andruczk to Everyone:
+	For lines 84-87
+11:54:47 From Dani Mekuriaw to Everyone:
+	oh okay
+11:58:49 From Anh Dang to Everyone:
+	thank you!
+11:58:59 From Eten to Everyone:
+	Thanks!!
+12:01:15 From Pranik Chainani to Everyone:
+	Why is using javascript better than ruby for this form thing
+12:01:50 From Bill Feng to Everyone:
+	I think part of it is if the backend isn't ruby as well
+12:02:23 From Pranik Chainani to Everyone:
+	kewl
+12:04:14 From Eten to Everyone:
+	Is mvc still relevant with javascript
+12:06:28 From Kyle Andruczk to Everyone:
+	Mean/mern
+12:06:30 From Eten to Everyone:
+	Ok!
+12:06:37 From Eten to Everyone:
+	Thanks!
+12:06:37 From Pranik Chainani to Everyone:
+	Couldn’t we add javascript to erb?
+12:06:42 From Pranik Chainani to Everyone:
+	To maintain mvc
