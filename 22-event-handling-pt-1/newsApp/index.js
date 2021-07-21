@@ -1,73 +1,23 @@
-const articlesArray = [
-    {
-        id: 100,
-        title: "Local Boy Unmutes Himself",
-        author: "Tim Wit",
-        description: "In a stunning turn of events, a very competent programmer remembers to press the 'unmute' button before speaking on Zoom.",
-        image: "https://images.idgesg.net/images/article/2020/07/zoom-for-home-100852180-large.jpg",
-        likes: 6
-    },
-    {
-        id: 2,
-        title: "Fluff Daddy",
-        author: "F. Diddy",
-        description: "Breaking: Puff Daddy changes his name yet again, this time to help promote his line of extremely fluffy coats",
-        image: "https://i.redd.it/l0uj355oxv341.jpg",
-        likes: 50
-    },
-    {
-        id: 3,
-        title: "Earth Spinning",
-        author: "Bark Twain",
-        description: "Recent studies have led scientists to believe that the Earth is spinning round as we speak.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif",
-        likes: 50
-    },
-    {
-        id: 4,
-        title: "Raffy so cute",
-        author: "Mr. Rafferty",
-        description: "Raffy continues to be a fluffy boy.",
-        image: "images/raffy.jpg",
-        likes: 27
-    },
-    {
-        id: 5,
-        title: "Free Ice Cream",
-        author: "Sherbert Coné",
-        description: "In determination to increase global happiness, the University is planning their ice cream for all intiative on campus tomorrow at noon. Every day from 9:00 AM to Midnight, Yalies will be able to pick up as much free ice cream as they desire from now until forever more.",
-        image: "https://ydn-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/dining_anh_-Lucas-Holter.jpg",
-        likes: 9000
-    },
-    {
-        id: 6,
-        title: "Toy Story AirBnB",
-        author: "Anon",
-        description: "One of childhood's most adored movies is coming to life in this Toy Story themed AirBnB in El Paso, Texas.",
-        image: "https://s.hdnux.com/photos/01/20/77/36/21231538/3/900x0.jpg",
-        likes: 586
-    }
-]
-
-
-
 const titleH1 = document.querySelector('h1#news-co')
 const allCards = document.querySelectorAll('div.card')
 
 
-// UPDATE Deliverable 1
 
-// target the element of interest
-const firstCardImg = document.querySelector('[data-id="1"] img')
-// update the property want. Bam!
-firstCardImg.src = "/Users/michelle/Desktop/my-cohorts/yale-web-060721/21-dom-manipulation/newsApp/images/raffy.jpg"
+function updateFirstCardPic() {
+    // target the element of interest
+    const firstCardImg = document.querySelector('[data-id="1"] img')
+    // update the property want. Bam!
+    firstCardImg.src = "/Users/michelle/Desktop/my-cohorts/yale-web-060721/21-dom-manipulation/newsApp/images/raffy.jpg"
+}
 
 
-// DELETE 
-// find the element we want to delete
-const adCard = document.querySelector('.card.ad')
-adCard.remove()
+function removeAd() {
+    // DELETE 
+    // find the element we want to delete
+    const adCard = document.querySelector('.card.ad')
+    adCard.remove()
 
+}
 
 // combo approach
 function createOneCard(articleObject) {
@@ -98,7 +48,67 @@ function createOneCard(articleObject) {
 
 
 
-articlesArray.forEach(function (articleObj) {
-    createOneCard(articleObj)
+function renderAllCards() {
+    articlesArray.forEach(function (articleObj) {
+        createOneCard(articleObj)
+    })
+}
+
+// 1. target element we want to add event listener to
+const toggleElement = document.querySelector('input#toggle-dark-mode')
+
+// 2. add event listener - argument #1 is the type of event, argument #2 is the callback function that will be invoked
+// when the event occurs on the element
+toggleElement.addEventListener('click', function () {
+    console.log('clicked!!')
+    // DOM MANIPULATION TIME!
+    // if (!document.body.classList.contains('dark-mode')) {
+    //     document.body.classList.add('dark-mode')
+    // }
+    // else {
+    //     document.body.classList.remove('dark-mode')
+    // }
+    document.body.classList.toggle('dark-mode')
 })
 
+
+
+
+
+const form = document.querySelector('form#article-form')
+
+form.addEventListener('submit', function (event) {
+    event.preventDefault() // ALWAYS NEED THIS FOR FORM SUBMIT EVENTS
+
+    // get the user input
+    const titleInput = event.target[0].value // event.target.title.value // document.querySelector('#article-form input').value
+    const authorInput = event.target[1].value // event.target.author.value
+    const descriptionInput = event.target[2].value // event.target.description.value
+    const imageInput = event.target[3].value // event.target.url.value
+
+    // DOM MANIPULATION - add new article card to page using user input
+    const newId = articlesArray[articlesArray.length - 1].id + 1
+
+    const articleObject = {
+        title: titleInput,
+        author: authorInput,
+        description: descriptionInput,
+        image: imageInput,
+        likes: 0,
+        id: newId
+    }
+
+    articlesArray.push(articleObject)
+
+    createOneCard(articleObject)
+    form.reset()
+
+})
+
+
+
+
+
+updateFirstCardPic()
+removeAd()
+renderAllCards()
