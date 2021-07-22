@@ -1,4 +1,4 @@
-# Event Delegation
+# Event Handling PT 2
 
 ## Learning Goals
 1. Explain event propagation and identify how it can be used
