@@ -45,6 +45,30 @@ function createOneCard(articleObject) {
                 </div>
                 `
 
+    const delBtn = outerDiv.querySelector('.delete-button')
+
+    delBtn.addEventListener('click', () => {
+        console.log('Wohoo, clickaroo!', delBtn)
+        outerDiv.remove()
+    })
+
+    const likeBtn = outerDiv.querySelector('.like-button')
+
+    likeBtn.addEventListener('click', () => {
+
+        const pLikesElement = outerDiv.querySelector('p.react-count span')
+        const currLikes = pLikesElement.textContent
+
+        // appraoch 1 - getting data from the DOM
+        // const newLikes = parseInt(currLikes) + 1
+        // pLikesElement.textContent = `${newLikes} likes`
+
+        // approach 2 - getting data from articleObject which comes from the outer scope
+        articleObject.likes = articleObject.likes + 1
+        pLikesElement.textContent = articleObject.likes
+    })
+
+
     const collectionDiv = document.querySelector("div#collection")
     collectionDiv.append(outerDiv)
 }
@@ -99,46 +123,13 @@ form.addEventListener('submit', function (event) {
 removeAd()
 renderAllCards()
 
-// document.body.addEventListener('click', (event) => {
-//     console.log('Body Clicked', event.target)
+
+
+// Flawed Approach
+// const allDelBtns = document.querySelectorAll('.delete-button')
+
+// allDelBtns.forEach(btn => {
+//     btn.addEventListener('click', (event) => {
+//         console.log('delete button clicked!', event.target)
+//     })
 // })
-
-// document.querySelector('.delete-button').addEventListener('click', (event) => {
-//     console.log('Delete Button Clicked', event.target)
-// })
-
-
-// document.querySelector('div.card').addEventListener('click', (event) => {
-//     console.log('Card Clicked', event.target)
-// })
-
-
-// EVENT DELEGATION
-// 1. Find first common parent of the elements we care to listen for user interaction on (delete and like buttons)
-const collectionDiv = document.querySelector('div#collection')
-
-// 2. Add event listener on it
-collectionDiv.addEventListener('click', (event) => {
-
-    // 3. add conditional logic to determinne when the user clicked on either the like button or delete button 
-    if (event.target.classList.contains('delete-button')) {
-        console.log('delete button clicked!!!!!!')
-        // let card = event.target.parentElement.parentElement
-        let card = event.target.closest('div.card')
-        card.remove()
-    }
-    else if (event.target.matches('button.like-button')) {
-        console.log('LIKE button clicked!!!!')
-        // const likesNumSpan = event.target.previousElementSibling.children[0]
-        // const currLikes = parseInt(likesNumSpan.textContent)
-        // const newLikes = currLikes + 1
-        // likesNumSpan.textContent = newLikes
-
-
-        let card = event.target.closest('div.card')
-        let likesNumSpan = card.querySelector('p.react-count span')
-        const currLikes = parseInt(likesNumSpan.textContent)
-        const newLikes = currLikes + 1
-        likesNumSpan.textContent = newLikes
-    }
-})
