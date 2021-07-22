@@ -1,0 +1,118 @@
+10:02:16 From Eten to Everyone:
+	Good morning!
+10:04:55 From Pranik Chainani to Everyone:
+	Could you send the GitHub link so we can clone
+10:10:22 From Dani Mekuriaw to Everyone:
+	hard to know which card is deleted
+10:11:10 From Bill Feng to Everyone:
+	we have to add anew delete button listener there
+10:16:14 From Dani Mekuriaw to Everyone:
+	but how can we tell which button is for which card if they all have identical selectors?
+10:16:38 From Pranik Chainani to Everyone:
+	So we’re essentially creating a new event listener each time the user creates a card
+10:21:27 From Pranik Chainani to Everyone:
+	Pop from array?
+10:21:45 From Bill Feng to Everyone:
+	do we use .parent here
+10:23:31 From Eten to Everyone:
+	How does it match that outderdiv to our specific card
+10:23:32 From Bill Feng to Everyone:
+	woah that's weird
+10:24:23 From Bill Feng to Everyone:
+	if instead we used a callback function would our code work still?
+10:25:48 From Eten to Everyone:
+	Oh ok thanks !
+10:25:53 From Bill Feng to Everyone:
+	er I mean like define it outsdie
+10:26:05 From Bill Feng to Everyone:
+	would it need to be defined in the createOneCard function though
+10:26:49 From Bill Feng to Everyone:
+	hm ok cool cool
+10:29:16 From Eten to Everyone:
+	Btw all of this is not saved in a database
+10:29:29 From Eten to Everyone:
+	So this is a playground
+10:30:27 From Eten to Everyone:
+	Wait where are we iterating through and rendering each card
+10:31:02 From Pranik Chainani to Everyone:
+	createOneCard is what displays the div in the dom
+10:36:15 From Eten to Everyone:
+	For loop?
+10:36:41 From Dani Mekuriaw to Everyone:
+	what would the selector be if we had to specify the react-count class is within a "content" div class? like if we had another a react-count class somewhere else which we didn't want to change
+10:42:02 From Eten to Everyone:
+	Ok so one method goes to the rom and the other just accesses the value in the article object
+10:42:26 From Eten to Everyone:
+	Dom*
+10:43:11 From Eten to Everyone:
+	So we are just accessing data from different points and have different corresponding methods to deal with that
+10:43:57 From Kyle Andruczk to Everyone:
+	Parseint just converts the str of a num to the number datatype right
+10:45:45 From Anh Dang to Everyone:
+	Every time we update the text content of a an element, we have to rerender any additional text? Is there a way to only update the number and leave “likes” untouched?
+10:45:56 From Eten to Everyone:
+	Is the dom method better since we don’t have to always load data from the articles database. We can just get what’s on the page easily and update and display that change
+10:49:46 From Kyle Andruczk to Everyone:
+	Does articleObj have global scope
+10:50:07 From Eten to Everyone:
+	^
+10:51:43 From Pranik Chainani to Everyone:
+	Variables in a function are accessible also within a sub function, but not from functions outside
+10:55:10 From Kyle Andruczk to Michelle Rios(Direct Message):
+	Quick Michelle give us the O(n) memory efficiency of this
+10:56:37 From Kyle Andruczk to Everyone:
+	Sounds like an AJAX solution
+10:58:49 From Pranik Chainani to Everyone:
+	Ajax the lesser or Ajax the greater?
+10:59:06 From Michelle Rios to Kyle Andruczk(Direct Message):
+	Return time: 11:05
+10:59:42 From Michelle Rios to Kyle Andruczk(Direct Message):
+	Which part?
+10:59:49 From Michelle Rios to Everyone:
+	Return time: 11:05
+11:04:20 From Pranik Chainani to Everyone:
+	Could you scroll down to your likeBtn event listener
+11:04:35 From Pranik Chainani to Everyone:
+	Thanks!
+11:14:30 From Bill Feng to Everyone:
+	so if we flip the order it'll still work?
+11:15:23 From Bill Feng to Everyone:
+	hmm
+11:21:07 From Bill Feng to Everyone:
+	is it possible for multiple captures to be triggered, like if theres two stakced elements
+11:21:18 From Bill Feng to Everyone:
+	like branching or something
+11:21:22 From Bill Feng to Everyone:
+	of the capture phase
+11:21:39 From Bill Feng to Everyone:
+	like if we're making a game, and two divs are overalpping
+11:22:23 From Bill Feng to Everyone:
+	ah ok thx
+11:33:32 From Bill Feng to Everyone:
+	the class
+11:36:58 From Eten to Everyone:
+	So contains grabs element matches grabs css
+11:37:54 From Eten to Everyone:
+	Thanks!
+11:38:52 From Bill Feng to Everyone:
+	is it .parentNode time?
+11:40:37 From Bill Feng to Everyone:
+	how did we view all those attributes of the event.target?
+11:41:01 From Bill Feng to Everyone:
+	cool thx
+12:00:25 From Dani Mekuriaw to Everyone:
+	nested
+12:00:40 From Bill Feng to Everyone:
+	event delegation seems simpler to me
+12:00:44 From Kyle Andruczk to Everyone:
+	delegation
+12:00:44 From Anh Dang to Everyone:
+	delegation
+12:00:55 From Pranik Chainani to Everyone:
+	nested
+12:00:59 From Bill Feng to Everyone:
+	which one is the more scalable one again
+12:01:29 From Bill Feng to Everyone:
+	ah
+12:03:11 From Anh Dang to Everyone:
+	thank you!
