@@ -1,0 +1,78 @@
+10:32:12 From Pranik Chainani to Everyone:
+	Are you back in new york?
+10:32:28 From Pranik Chainani to Everyone:
+	Oops sorry
+10:32:43 From Pranik Chainani to Everyone:
+	Meant for that to be a private message lol
+10:45:13 From Ekow Bentsi-Enchill to Everyone:
+	setTimeout?
+10:45:25 From TJ Taek Jin Han to Everyone:
+	setInterval?
+10:58:06 From TJ Taek Jin Han to Everyone:
+	I am having error from the first line of ruby file 😞
+10:58:14 From TJ Taek Jin Han to Everyone:
+	Traceback (most recent call last):
+	        2: from synch.rb:1:in `<main>'
+	        1: from /Users/taekjinhan/.rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0/rubygems/core_ext/kernel_require.rb:85:in `require'
+	/Users/taekjinhan/.rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0/rubygems/core_ext/kernel_require.rb:85:in `require': cannot load such file -- rest-client (LoadError)
+	(base) taekjinhan@Taeks-MBP 25-async-js-and-fetch %
+11:01:24 From Michelle Rios to Everyone:
+	https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+11:01:52 From Michelle Rios to Everyone:
+	https://randomfox.ca/floof/
+11:03:08 From Kyle Andruczk to Everyone:
+	Idk if you will mention this but some apis I’ve encountered require a post request w/ headers passed in—is it possible to do POST instead of GET and also pass in http headers in JS?
+11:05:44 From Kyle Andruczk to Everyone:
+	Does that include http headers w/ fetch CRUD
+11:10:56 From Pranik Chainani to Everyone:
+	So is promise like a try catch
+11:19:34 From Paulos Thomas to Everyone:
+	I’m getting this error:
+11:19:36 From Paulos Thomas to Everyone:
+	Access to fetch at 'https://randomfox.ca/floof' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+11:20:07 From TJ Taek Jin Han to Everyone:
+	I am getting “Response” instead of “Promise”
+11:20:15 From TJ Taek Jin Han to Everyone:
+	Response {type: "cors", url: "https://randomfox.ca/floof/", redirected: false, status: 200, ok: true, …}
+11:21:50 From TJ Taek Jin Han to Everyone:
+	Oh I got it
+11:23:06 From Paulos Thomas to Everyone:
+	unfortunately I’ve refreshed many times but I get the same error ):
+11:23:40 From Paulos Thomas to Everyone:
+	Okay
+11:27:36 From Paulos Thomas to Everyone:
+	It’s working for me now!
+11:37:43 From Ekow Bentsi-Enchill to Everyone:
+	Is there an empty img tag in index.html waiting to be given a pic from the API?
+11:37:47 From Bill Feng to Everyone:
+	what does the log say
+11:37:49 From Kyle Andruczk to Everyone:
+	Say you were searching in a search box—would it make more sense to just have all of the data in the database from an api and query that (your own db) or to continuously query an external api with each search?
+11:39:33 From Bill Feng to Everyone:
+	when we double click I meant
+11:39:42 From Pranik Chainani to Everyone:
+	The real question is what does the fox say
+11:39:46 From Bill Feng to Everyone:
+	^^
+11:40:08 From Ekow Bentsi-Enchill to Everyone:
+	Ohhhh yerrr
+11:40:12 From TJ Taek Jin Han to Everyone:
+	I am only getting “coming soon” image
+11:48:59 From TJ Taek Jin Han to Michelle Rios(Direct Message):
+	Michelle, can I remain in the video to ask you a question?
+11:49:15 From Bill Feng to Everyone:
+	epic
+11:49:15 From Dani Mekuriaw to Everyone:
+	thank you!
+11:49:17 From Michelle Rios to TJ Taek Jin Han(Direct Message):
+	yes
+11:49:20 From Pranik Chainani to Everyone:
+	thanks
+11:49:21 From Michelle Rios to Everyone:
+	const img = document.querySelector('img')
+11:49:24 From Anh Dang to Everyone:
+	thank you!
+11:50:13 From Dani Mekuriaw to Everyone:
+	I think it should be img.src and not img.scr
+11:50:31 From Kyle Andruczk to Everyone:
+	^^^
