@@ -1,0 +1,70 @@
+10:34:52 From Kyle Andruczk to Everyone:
+	I think the current jeopardy champ is a Yale PhD student rn
+10:35:12 From Kyle Andruczk to Everyone:
+	CS!!
+10:35:43 From Kyle Andruczk to Everyone:
+	I think only a few days as of now
+10:35:44 From Bill Feng to Everyone:
+	3 days? or something
+10:35:58 From TJ Taek Jin Han to Everyone:
+	https://www.nhregister.com/entertainment/article/Yale-PhD-student-wins-81K-jeopardy-16334843.php
+10:43:14 From Pranik Chainani to Everyone:
+	What was the nom command you ran again
+10:43:18 From Pranik Chainani to Everyone:
+	npm*
+10:43:27 From Michelle Rios to Everyone:
+	npm install -g json-server
+10:50:12 From Dani Mekuriaw to Everyone:
+	what if we didn't have the id attribute? Is id required in json DBs?
+11:22:54 From Ekow Bentsi-Enchill to Everyone:
+	Could you repeat the question ?
+11:32:33 From Bill Feng to Everyone:
+	/class/id ?
+11:33:28 From Paulos Thomas to Everyone:
+	Can we still keep the form.reset from before?
+11:33:58 From Dani Mekuriaw to Everyone:
+	the dataset id we set?
+11:34:06 From Ekow Bentsi-Enchill to Everyone:
+	^^
+11:36:04 From TJ Taek Jin Han to Everyone:
+	Why it is not “data-id” but “dataset.id”?
+11:40:21 From Paulos Thomas to Everyone:
+	like data-x and data-y from the Robot Lab?
+11:40:51 From TJ Taek Jin Han to Everyone:
+	So where does “dataset” object come from?
+11:48:12 From Kyle Andruczk to Everyone:
+	So optimistic just does client side first and assumes the server side is done later
+11:50:06 From Kyle Andruczk to Everyone:
+	Shopping
+11:54:18 From Paulos Thomas to Everyone:
+	Sorry what does the underscore do?
+11:55:21 From Dani Mekuriaw to Everyone:
+	why do we need the .thens for the pessimistic rendering?
+11:55:38 From Dani Mekuriaw to Everyone:
+	couldn't we have the card.remove() right after the fetch
+11:56:26 From Kyle Andruczk to Everyone:
+	When would you use post over patch w/ JavaScript? Would you only use POST w/ form input?
+12:00:39 From Paulos Thomas to Everyone:
+	What other headers might we use in the future?
+12:13:49 From Pranik Chainani to Everyone:
+	django
+12:16:38 From Paulos Thomas to Michelle Rios(Direct Message):
+	Quick question: I am trying to access the google spreadsheet that has the link to lecture recordings, but it says I don’t have access anymore.
+12:17:54 From Ekow Bentsi-Enchill to Everyone:
+	Yeah same
+12:17:57 From Anh Dang to Everyone:
+	I cannot as well
+12:18:07 From Ekow Bentsi-Enchill to Everyone:
+	Going to the doc directly
+12:18:12 From Ekow Bentsi-Enchill to Everyone:
+	Says we need permission
+12:18:46 From TJ Taek Jin Han to Everyone:
+	I think google recently changed the privacy/security setting
+12:19:54 From Paulos Thomas to Everyone:
+	Also, what was that mdn website that you were referencing with the info on the different routes?
+12:20:06 From Paulos Thomas to Everyone:
+	Thanks
+12:20:08 From Michelle Rios to Everyone:
+	https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+12:21:51 From Anh Dang to Everyone:
+	thank you!
