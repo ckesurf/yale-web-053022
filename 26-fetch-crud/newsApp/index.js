@@ -52,9 +52,18 @@ function createOneCard(articleObject) {
 
 
 function renderAllCards() {
-    articlesArray.forEach(function (articleObj) {
-        createOneCard(articleObj)
-    })
+    // articlesArray.forEach(function (articleObj) {
+    //     createOneCard(articleObj)
+    // })
+
+    fetch('http://localhost:3000/articles')
+        .then(r => r.json())
+        .then(articlesArray => {
+            // console.log(data)
+            articlesArray.forEach(articleObj => {
+                createOneCard(articleObj)
+            })
+        })
 }
 
 
@@ -76,7 +85,7 @@ form.addEventListener('submit', function (event) {
     const imageInput = event.target[3].value
 
     // DOM MANIPULATION - add new article card to page using user input
-    const newId = articlesArray[articlesArray.length - 1].id + 1
+    // const newId = articlesArray[articlesArray.length - 1].id + 1
 
     const articleObject = {
         title: titleInput,
@@ -84,12 +93,25 @@ form.addEventListener('submit', function (event) {
         description: descriptionInput,
         image: imageInput,
         likes: 0,
-        id: newId
     }
 
-    articlesArray.push(articleObject)
-    createOneCard(articleObject)
+    // articlesArray.push(articleObject)
+    // createOneCard(articleObject)
     form.reset()
+    fetch('http://localhost:3000/articles', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(articleObject)
+    })
+        .then(r => r.json())
+        .then(createOneCard)
+    // .then(newArticle => {
+    //     createOneCard(newArticle)
+    // })
+
+
 })
 
 
@@ -97,14 +119,41 @@ collectionDiv.addEventListener('click', (event) => {
 
     if (event.target.classList.contains('delete-button')) {
         let card = event.target.closest('div.card')
-        card.remove()
+
+        // optimistic rendering
+        // card.remove()
+
+        fetch(`http://localhost:3000/articles/${card.dataset.id}`, {
+            method: 'DELETE'
+        })
+            .then(r => r.json())
+            .then(() => {
+                // pessimistic rendering
+                card.remove()
+            })
+
+        // optimistic rendering
+        // card.remove()
+
     }
     else if (event.target.matches('button.like-button')) {
         let card = event.target.closest('div.card')
         let likesNumSpan = card.querySelector('p.react-count span')
         const currLikes = parseInt(likesNumSpan.textContent)
         const newLikes = currLikes + 1
+
+        // optimistic rendering
         likesNumSpan.textContent = newLikes
+
+        fetch(`http://localhost:3000/articles/${card.dataset.id}`, {
+            method: 'PATCH',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ likes: newLikes })
+        })
+            .then(r => r.json())
+            .then(data => console.log(data))
     }
 })
 
@@ -114,6 +163,3 @@ collectionDiv.addEventListener('click', (event) => {
 
 removeAd()
 renderAllCards()
-
-
-
