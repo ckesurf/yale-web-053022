@@ -31,6 +31,22 @@
       "description": "In determination to increase global happiness, the University is planning their ice cream for all intiative on campus tomorrow at noon. Every day from 9:00 AM to Midnight, Yalies will be able to pick up as much free ice cream as they desire from now until forever more.",
       "image": "https://ydn-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/dining_anh_-Lucas-Holter.jpg",
       "likes": 9064
+    },
+    {
+      "titleInput": "Crabs",
+      "authorInput": "Raffy",
+      "descriptionInput": "They are so cool!",
+      "imageInput": "https://i.ytimg.com/vi/VV3R8xkOyOw/maxresdefault.jpg",
+      "likes": 0,
+      "id": 101
+    },
+    {
+      "title": "Coconut Crabs",
+      "author": "Raffy",
+      "description": "Wow~",
+      "image": "https://i.ytimg.com/vi/VV3R8xkOyOw/maxresdefault.jpg",
+      "likes": 0,
+      "id": 102
     }
   ]
 }

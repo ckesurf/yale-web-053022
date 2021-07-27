@@ -74,19 +74,28 @@ form.addEventListener('submit', function (event) {
     event.preventDefault()
 
     // get the user input
-    const titleInput = event.target[0].value // event.target.title.value // document.querySelector('#article-form input').value
-    const authorInput = event.target[1].value
-    const descriptionInput = event.target[2].value
-    const imageInput = event.target[3].value
+    const title = event.target[0].value // event.target.title.value // document.querySelector('#article-form input').value
+    const author = event.target[1].value
+    const description = event.target[2].value
+    const image = event.target[3].value
+
+    // const articleObject = {
+    //     title: titleInput,
+    //     author: authorInput,
+    //     description: descriptionInput,
+    //     image: imageInput,
+    //     likes: 0,
+    // }
 
     const articleObject = {
-        title: titleInput,
-        author: authorInput,
-        description: descriptionInput,
-        image: imageInput,
-        likes: 0,
+        title,
+        author,
+        description,
+        image,
+        likes: 0
     }
 
+    // debugger
 
     fetch('http://localhost:3000/articles', {
         method: 'POST',
