@@ -1,0 +1,30 @@
+10:13:03 From Kyle Andruczk to Everyone:
+	JS is overall syntactic vinegar ngl
+10:15:34 From Kyle Andruczk to Everyone:
+	Wait completely off topic but are instances of classes in JS also called objects? Kinda confusing if true lol
+10:20:05 From TJ Taek Jin Han to Everyone:
+	But in that case we are no longer able to use the variable/object called “title”?
+10:20:37 From Eten to Everyone:
+	King crab?
+10:21:37 From Kyle Andruczk to Everyone:
+	Change keys
+10:22:23 From TJ Taek Jin Han to Everyone:
+	Yeah, that was I was wondering!
+10:22:28 From TJ Taek Jin Han to Everyone:
+	With “=“ sign?
+10:22:34 From Eten to Everyone:
+	Just replace them with what we need
+10:22:41 From Dani Mekuriaw to Everyone:
+	change the variable names
+10:22:45 From Eten to Everyone:
+	Like the names
+10:23:05 From TJ Taek Jin Han to Everyone:
+	Oh! that would be much easier
+10:24:04 From TJ Taek Jin Han to Everyone:
+	But why did we name like titleInput”
+10:24:10 From TJ Taek Jin Han to Everyone:
+	In the first place?
+10:24:19 From Eten to Everyone:
+	^^
+10:27:41 From Eten to Everyone:
+	Thank you !
