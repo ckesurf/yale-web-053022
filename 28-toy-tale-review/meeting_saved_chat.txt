@@ -1,0 +1,112 @@
+14:06:24 From Eten to Everyone:
+	Challenging but doable
+14:06:38 From Eten to Everyone:
+	It was the post and patch for me
+14:06:44 From Eten to Everyone:
+	That part I need to review
+14:09:11 From Kyle Andruczk to Everyone:
+	Is the onDOMContentLoaded necessary, i noticed it’s not in the lecture code
+14:10:53 From Dani Mekuriaw to Everyone:
+	when do put all our code inside the DOM content loader? some of the labs instructed us to do that
+14:13:38 From Eten to Everyone:
+	Could you explain quickly again how the .then is working here
+14:22:03 From TJ Taek Jin Han to Everyone:
+	“Data” wan’t pre-established term?
+14:27:08 From Eten to Everyone:
+	So we have to use append to like seal the deal
+14:27:14 From Eten to Everyone:
+	Like to make sure its displayed
+14:27:20 From Eten to Everyone:
+	The thing we want to add
+14:31:59 From Eten to Everyone:
+	Doesn’t combo work best
+14:32:03 From Dani Mekuriaw to Everyone:
+	combo
+14:32:05 From Kyle Andruczk to Everyone:
+	Combo is based
+14:32:20 From Eten to Everyone:
+	Oh lol so in my mind faster was better
+14:32:32 From Eten to Everyone:
+	But that’s fine artisanal is fine if that’s the correct way
+14:33:01 From Kyle Andruczk to Everyone:
+	Combo approach is double vaxxed so safety is not a concern
+14:33:24 From Eten to Everyone:
+	lol
+14:42:49 From TJ Taek Jin Han to Everyone:
+	We should be able to find the element `form.add-toy-form` ?
+14:50:38 From Eten to Everyone:
+	Ohhh ok
+14:52:04 From Eten to Everyone:
+	That finally makes sense to me thanks for clearing that up!
+14:55:13 From TJ Taek Jin Han to Everyone:
+	How about likes?
+14:58:01 From Eten to Everyone:
+	zero
+15:02:29 From Eten to Everyone:
+	Is it image or image source
+15:02:31 From Eten to Everyone:
+	Like the link?
+15:02:39 From Eten to Everyone:
+	Img src
+15:02:45 From Eten to Everyone:
+	Ohhhh ok !
+15:03:35 From TJ Taek Jin Han to Everyone:
+	In the readme, there was “Accept” for the headers
+15:06:06 From Eten to Everyone:
+	We need brackets for headers but not body
+15:06:18 From Eten to Everyone:
+	Oh ok cool
+15:06:40 From Dani Mekuriaw to Everyone:
+	what else could the headers be? & what does "application/json" mean?
+15:06:42 From Eten to Everyone:
+	awesome
+15:07:20 From Dani Mekuriaw to Everyone:
+	so application/json is a built-in command?
+15:07:25 From Dani Mekuriaw to Everyone:
+	like reference
+15:07:51 From Dani Mekuriaw to Everyone:
+	okay and could the headers be different?
+15:08:13 From Dani Mekuriaw to Everyone:
+	oh okay thank you!
+15:08:40 From Eten to Everyone:
+	Jason coming through clutch
+15:08:45 From Eten to Everyone:
+	json*
+15:16:33 From Eten to Everyone:
+	No append
+15:16:37 From Eten to Everyone:
+	We have to add it
+15:18:33 From Eten to Everyone:
+	Im going to go out on a limb and say that’s not the way we should probably do it lmao
+15:19:47 From Eten to Everyone:
+	Also there is no toy collection either defined there right
+15:19:53 From Eten to Everyone:
+	Oh wait lol nevermind
+15:26:28 From Eten to Everyone:
+	tertianry
+15:26:31 From Eten to Everyone:
+	teritary
+15:26:35 From Dani Mekuriaw to Everyone:
+	take out { }
+15:26:42 From Eten to Everyone:
+	I can’t spell that word just ignore me lol
+15:26:52 From Dani Mekuriaw to Everyone:
+	or just renderOneToy
+15:33:02 From Eten to Everyone:
+	Event delegation
+15:33:03 From Anh Dang to Everyone:
+	delegation
+15:33:04 From Dani Mekuriaw to Everyone:
+	we did delegation
+15:41:31 From Dani Mekuriaw to Everyone:
+	we checked if the classlist included the button
+15:41:31 From Eten to Everyone:
+	We did event listener
+15:41:31 From TJ Taek Jin Han to Everyone:
+	Event.target.classList.contains
+15:41:37 From Anh Dang to Everyone:
+	event.target.matches()
+15:41:48 From Eten to Everyone:
+	event.target.classList.contains('like-btn')
+15:55:03 From Eten to Everyone:
+	Lol whoever gave him -2 likes did him dirty
