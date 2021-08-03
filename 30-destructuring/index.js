@@ -16,11 +16,7 @@ const raffy = {
 }
 
 // original way
-const name = raffy.name
-const age = raffy.age
-const type = raffy.type
-const bestFriends = raffy.bestFriends
-const color = raffy.fruits.apple.color
+
 
 
 
@@ -47,11 +43,7 @@ const apples = ["green", "yellow", "purple", ["rainbow", "blue"]]
 
 
 // original way
-const bc = cryptoCurrencies[0]
-const dash = cryptoCurrencies[1]
-const eth = cryptoCurrencies[2]
-const arr = apples[3]
-const rb = apples[3][0]
+
 
 
 
@@ -86,8 +78,7 @@ const liTags = document.getElementsByTagName('li')
 const pTags = document.querySelectorAll('p')
 
 // original way
-const firstLi = liTags[0]
-const p1 = pTags[0]
+
 
 
 
@@ -131,9 +122,7 @@ function getMovieTitles() {
 
 // original way
 const arr = getMovieTitles()
-const value1 = arr[0]
-const value2 = arr[1]
-const value3 = arr[2]
+
 
 
 
