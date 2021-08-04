@@ -1,0 +1,72 @@
+14:01:10 From Eten to Everyone:
+	Hello!
+14:06:20 From Eten to Everyone:
+	Wait so these objects all have to look the same because they are under the same class?
+14:13:27 From TJ Taek Jin Han to Everyone:
+	But eten is “name”
+14:13:36 From TJ Taek Jin Han to Everyone:
+	Instead of firstName
+14:13:47 From Eten to Everyone:
+	nothing
+14:24:02 From Eten to Everyone:
+	thanks@
+14:24:04 From Eten to Everyone:
+	Thanks!
+14:32:43 From Eten to Everyone:
+	Lol why would they call it this
+14:32:46 From Eten to Everyone:
+	That is so confusing
+14:37:49 From Eten to Everyone:
+	To initialize and store
+14:37:55 From Eten to Everyone:
+	The attribute
+14:38:05 From Eten to Everyone:
+	To use it later
+14:42:51 From Eten to Everyone:
+	Why is that undefined popping up below ian
+14:43:12 From Eten to Everyone:
+	Oh ok cool thanks
+14:49:26 From TJ Taek Jin Han to Everyone:
+	So, we can think of this as the same formula but inputs are different?
+14:52:35 From Eten to Everyone:
+	I think they are equal because they just have the same methods its just looking to make sure they have the same methods
+15:05:53 From Michelle Rios to Everyone:
+	Return time: 3:10
+15:06:54 From Bill Feng to Everyone:
+	gotta go, thanks for holding this, i'll watch the recording later
+15:13:33 From Eten to Everyone:
+	Just to recap this is the combo way of persisting dat right
+15:13:40 From Eten to Everyone:
+	data*
+15:13:48 From Eten to Everyone:
+	The unsafe way
+15:47:57 From Eten to Everyone:
+	What is this?
+15:48:06 From Eten to Everyone:
+	No like what is the thing we are thisssing
+15:48:12 From Eten to Everyone:
+	Like trying to figure out what this is
+15:48:18 From Eten to Everyone:
+	Sorry that probably made no sense lol
+15:49:58 From Eten to Everyone:
+	Bruh I hate this
+15:50:11 From Eten to Everyone:
+	Not like the topic just the word this
+16:09:47 From Eten to Everyone:
+	Thanks!
+16:10:22 From TJ Taek Jin Han to Everyone:
+	Can we put value instead of textcontent?
+16:12:37 From Eten to Everyone:
+	Yeah these Mac chargers
+16:12:44 From Eten to Everyone:
+	Mine never works
+16:13:30 From Eten to Everyone:
+	Never thought I would see a file with only 23 lines but here we are lol
+16:15:36 From Eten to Everyone:
+	No thank you!
+16:15:38 From Eten to Everyone:
+	Your the best
+16:15:49 From TJ Taek Jin Han to Everyone:
+	Thank you!
+16:16:02 From Zeyu Liu to Everyone:
+	do we need the POST/orderItems route because it will update the data in the backend? why we didn't need it when we have db.json in the backend
