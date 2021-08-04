@@ -10,8 +10,7 @@
   * How can I make a new instance of that class?
 * How can I write an instance method for a JS class?
 * How can I write a class method for a JS class?
-* How can we do inheritance with ES6?
-    * `super`?
+
 
 ## Here are the general steps for adding a class to your project:
 
