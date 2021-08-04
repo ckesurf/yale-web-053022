@@ -14,14 +14,14 @@ const pet = {
 }
 
 // Wrong way to make a copy of Raffy
+const copyAttempt = raffy
 
 
 // Correct way using spread operator
-
+const actualCopy = { ...raffy }
 
 // Combining raffy & pet object
-
-
+const combinedObjs = { ...raffy, ...pet, peppermint: "is nice" }
 
 
 
@@ -50,12 +50,13 @@ const redVeggies = ["red cabbage", "red onion", "rhubarb"]
 const greenVeggies = ["spinach", "lettuce", "zucchini"]
 
 // Wrong way to make a copy of redVeggies
+const redVeggiesCopyAttempt = redVeggies
 
 // Correct (sugared) way using spread operator
+const actualCopyRedVeggies = [...redVeggies]
 
 // Combining redVeggies & greenVeggies arrays
-
-
+const combinedVeggues = [...redVeggies, ...greenVeggies, "rainbow"]
 
 
 
@@ -97,7 +98,9 @@ function sumThreeNums(x, y, z) {
 }
 
 const arr = [3, 5, 7]
-// const sum = sumThreeNums(3, 5, 7)
+// const mySum = sumThreeNums(arr[0], arr[1], arr[2])
+
+// const mySum = sumThreeNums(...arr)
 
 
 
@@ -138,11 +141,12 @@ const arr = [3, 5, 7]
  into the function
 - Must be the last paramter 
 */
-function dynamicSum(num1, num2, num3) {
-    const myArgs = new Array(num1, num2, num3)
+function dynamicSum(num1, num2, ...moreArgs) {
+    // const myArgs = new Array(num1, num2, num3)
     // console.log(num1, num2, num3)
+    // debugger
 
-    return myArgs.reduce((acc, currVal) => {
+    return moreArgs.reduce((acc, currVal) => {
         return acc + currVal
     }, 0)
 }
@@ -181,3 +185,11 @@ const spring = {
     activities: ['running', 'walks', 'hiking', 'gardening'],
     isDaylightSaving: true
 }
+
+
+
+
+const [a, b, ...remainingItems] = nums
+
+
+const { temperature, ...remainingProps } = spring
