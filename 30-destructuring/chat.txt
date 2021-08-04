@@ -1,0 +1,5 @@
+16:04:19	 From Eten : Random question. Is there a best  laptop for coding?
+16:37:00	 From Kyle Andruczk  To  Michelle Rios(privately) : can I ask you a quick debugging question after lecture
+16:40:37	 From Bill Feng : if we wanted a different variable name for "name"
+16:40:46	 From Bill Feng : do we just do name: otherNameVariable
+16:42:31	 From Dani Mekuriaw : we always need the original keys to destructure objects right?
