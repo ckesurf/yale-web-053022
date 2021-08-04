@@ -1,0 +1,52 @@
+{
+  "articles": [
+    {
+      "id": 100,
+      "title": "Local Boy Unmutes Himself",
+      "author": "Tim Wit",
+      "description": "In a stunning turn of events, a very competent programmer remembers to press the 'unmute' button before speaking on Zoom.",
+      "image": "https://images.idgesg.net/images/article/2020/07/zoom-for-home-100852180-large.jpg",
+      "likes": 18
+    },
+    {
+      "id": 2,
+      "title": "Fluff Daddy",
+      "author": "F. Diddy",
+      "description": "Breaking: Puff Daddy changes his name yet again, this time to help promote his line of extremely fluffy coats",
+      "image": "https://i.redd.it/l0uj355oxv341.jpg",
+      "likes": 61
+    },
+    {
+      "id": 4,
+      "title": "Raffy so cute",
+      "author": "Mr. Rafferty",
+      "description": "Raffy continues to be a fluffy boy.",
+      "image": "images/raffy.jpg",
+      "likes": 27
+    },
+    {
+      "id": 5,
+      "title": "Free Ice Cream",
+      "author": "Sherbert Coné",
+      "description": "In determination to increase global happiness, the University is planning their ice cream for all intiative on campus tomorrow at noon. Every day from 9:00 AM to Midnight, Yalies will be able to pick up as much free ice cream as they desire from now until forever more.",
+      "image": "https://ydn-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/dining_anh_-Lucas-Holter.jpg",
+      "likes": 9064
+    },
+    {
+      "id": 6,
+      "title": "What does the fox say?",
+      "author": "National Geographic",
+      "description": "Ylvis says, 'But there's one sound that no one knows. What does the fox say? Ring-ding-ding-ding-dingeringeding! Gering-ding-ding-ding-dingeringeding! Gering-ding-ding-ding-dingeringeding! What the fox say? Wa-pa-pa-pa-pa-pa-pow! Wa-pa-pa-pa-pa-pa-pow! Wa-pa-pa-pa-pa-pa-pow! What the fox say?'",
+      "image": "https://images.wsj.net/im-355811?width=860&height=573",
+      "likes": 10064
+    },
+    {
+      "id": 7,
+      "title": "Discovery: Foxes love leaping",
+      "author": "Leslie Fox",
+      "description": "Did you know that foxes love to leap? Well, not many people did because it was just discovered!",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/15/cb/7d/7d/fox.jpg",
+      "likes": 9068
+    }
+  ]
+}
